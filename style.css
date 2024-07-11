@@ -1,0 +1,173 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url('https://media.istockphoto.com/id/1424757003/photo/budget-and-financial-planning-concept-including-a-management-or-executive-cfo-estimating-the.jpg?s=170667a&w=is&k=20&c=bm9McKPD_JAwcwc6sFlJRtj6tTWohM7cW231wfFvjoo=') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: #dfe6e9;
+  display: grid;
+  place-items: center;
+  user-select: none;
+}
+
+  
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  user-select: none;
+}
+
+.input {
+  background-color: #031336;
+  padding: 30px;
+  flex: 1;
+  color: white;
+}
+.input h1{
+    color: rgb(217, 31, 31);
+      margin-top: 0px; 
+  
+}
+
+.transaction {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.transaction h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+
+.transaction-item button {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction-item button:hover {
+  background-color: #ff3b3b;
+}
+
+
+.transaction-item p {
+  margin: 0;
+}
+
+.transaction-item p.income {
+  color: #1dd1a1;
+}
+
+.transaction-item p.expense {
+  color: #ee5253;
+}
+
+#date,
+#category,
+#amount {
+  font-size: 16px; 
+}
+.amount-btn {
+  padding: 2px;
+  width: 45%;
+}
+
+.transaction-description {
+  padding: 2px;
+  width: 60%;
+  height: 26px; 
+  font-size: 16px;
+
+}
+.category{
+  height:26px;
+  width: 65%;
+}
+
+#balance {
+  padding: 0cm 0; 
+}
+
+.input h2,
+.input h4,
+.input h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.inc-exp-container {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.inc-exp-container div {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 18px;
+  flex: 1;
+  border-radius: 2px;
+}
+
+.inc-exp-container div p {
+  font-size: 22px;
+}
+.inc-exp-container div.inc {
+  border: 3px solid #1dd1a1;
+  color: #1dd1a1;
+}
+.inc-exp-container div.exp {
+  border: 3px solid #ee5253;
+  color: #ee5253;
+}
+.expense {
+  background-color: rgb(224, 35, 35);
+  color: white;
+}
+
+.btn {
+    background-color: #2e86de;
+    color: white;
+    display: block;
+    width: 50%;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+
+
+
