@@ -11,9 +11,9 @@ The Expense Tracker is a web-based application that helps users manage their fin
 ***Technologies Used:*** HTML, CSS, JavaScript
 
 
-***Usage:***
+***How to Use:***
 
-1. ***Adding Transactions:***
+1. ***Add Transactions:***
 
 - **Date:** Enter the date of the transaction.
 
@@ -26,21 +26,21 @@ The Expense Tracker is a web-based application that helps users manage their fin
 - Select whether it’s an income or an expense using the provided options.
 
 
-2. ***Viewing Transactions:***
+2. ***View Transactions:***
 
 - All transactions are listed below the input form.
 
 - Income transactions are displayed in black text, and expense transactions are shown in red for easy identification.
 
 
-3. ***Deleting Transactions:***
+3. ***Delete Transactions:***
 
 - Each transaction entry includes a delete button.
 
 - Clicking the delete button removes the transaction from the list.
 
 
-4. ***Checking Balance:***
+4. ***Check Balance:***
 
 - The balance is updated in real-time based on added or deleted transactions.
 
